@@ -1,0 +1,55 @@
+body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  padding: 10px;
+}
+
+.menu li a{
+  display: block;
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+img {
+max-width: 100%;
+display: block;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.flex div {
+flex: 1 1 200px;
+margin: 10px;
+}
+/* flex é uma propriedade abreviada que pode especificar até três valores diferentes:
+1) O valor de proporção sem unidade que falamos sobre ele acima. Ele também pode ser especificado individualmente usando a regra flex-grow (en-US).
+2) Um segundo valor de proporção sem unidade — flex-shrink (en-US) — que convém ser usado quando os elementos flex estão sobrepondo a elemento recipiente (container). Este especifica qual a quantidade será retirada do tamanho de cada elemento flex, para que ele não ultrapasse o valor do elemento recipiente (container). Esta é uma funcionalidade bem avançada do flexbox, e não será abordada neste artigo.
+3) O valor mínimo para o tamanho que discutimos acima. Este pode ser especificado individualmente usando a regra flex-basis (en-US).*/
