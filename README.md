@@ -5,6 +5,6 @@
 Grid based on DesignCourse code
 
 
-<a href= "https://cintiabsza.github.io/CSS/flexbox/index.html">  FlexboxGrid 
+<a href= "https://cintiabsza.github.io/CSS/flexbox/index.html">  Flexbox 
 
-FlexboxGrid code from Origamid
+Flexbox code from Origamid
